@@ -10,6 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.editorconfig = .editorconfig
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQConsumer", "..\RabbitMQConsumer\RabbitMQConsumer.csproj", "{63B10872-9B48-48AD-9B52-CD503D311038}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +22,10 @@ Global
 		{67F35646-340E-4163-8F2B-75CD3EC093B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67F35646-340E-4163-8F2B-75CD3EC093B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67F35646-340E-4163-8F2B-75CD3EC093B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63B10872-9B48-48AD-9B52-CD503D311038}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63B10872-9B48-48AD-9B52-CD503D311038}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63B10872-9B48-48AD-9B52-CD503D311038}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63B10872-9B48-48AD-9B52-CD503D311038}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

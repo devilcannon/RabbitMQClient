@@ -36,8 +36,8 @@ namespace RabbitMQClient
                 Console.WriteLine($" [x] Received {message}");
             };
             string consumerTag = channel.BasicConsume(queue, autoAck: true, consumer);
-            Console.WriteLine("Press any key to quit");
-            Console.ReadKey();
+            //Console.WriteLine("Press any key to quit");
+            //Console.ReadKey();
             // Cleanup.
             channel.BasicCancel(consumerTag);
             channel.Close();
